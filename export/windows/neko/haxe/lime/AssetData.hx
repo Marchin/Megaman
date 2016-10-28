@@ -16,12 +16,24 @@ class AssetData {
 		
 		if (!initialized) {
 			
+			path.set ("assets/level/level.oel", "assets/level/level.oel");
+			type.set ("assets/level/level.oel", Reflect.field (AssetType, "text".toUpperCase ()));
+			path.set ("assets/level/New Project.oep", "assets/level/New Project.oep");
+			type.set ("assets/level/New Project.oep", Reflect.field (AssetType, "text".toUpperCase ()));
+			path.set ("assets/level/tiles.png", "assets/level/tiles.png");
+			type.set ("assets/level/tiles.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			path.set ("assets/level/Unsaved Level.oel", "assets/level/Unsaved Level.oel");
+			type.set ("assets/level/Unsaved Level.oel", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/light.png", "assets/light.png");
 			type.set ("assets/light.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			path.set ("assets/lightshot.png", "assets/lightshot.png");
 			type.set ("assets/lightshot.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			path.set ("assets/megaman_moving.png", "assets/megaman_moving.png");
-			type.set ("assets/megaman_moving.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			path.set ("assets/megamanmoving.png", "assets/megamanmoving.png");
+			type.set ("assets/megamanmoving.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			path.set ("assets/megamanmoving3.png", "assets/megamanmoving3.png");
+			type.set ("assets/megamanmoving3.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			path.set ("assets/megamanmoving4.png", "assets/megamanmoving4.png");
+			type.set ("assets/megamanmoving4.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			path.set ("assets/plataforma.png", "assets/plataforma.png");
 			type.set ("assets/plataforma.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			path.set ("flixel/sounds/beep.ogg", "flixel/sounds/beep.ogg");

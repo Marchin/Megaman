@@ -20,9 +20,10 @@ class Player extends FlxSprite
 	{
 		super(X, Y, SimpleGraphic);
 		
-		loadGraphic(AssetPaths.megaman_moving__png, true, 31, 28);
+		loadGraphic(AssetPaths.megamanmoving4__png, true, 32, 24);
 		
-		animation.add("stand", [0, 1, 2], 3, true);
+		animation.add("shoot", [0, 1, 2], 3, true);
+		animation.add("stand", [3, 4], 2, true);
 		animation.play("stand");
 		
 		acceleration.y = Reg.vAcceleration;
