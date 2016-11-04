@@ -25,8 +25,8 @@ class PlayState extends FlxState
 		FlxG.mouse.visible = false;
 		
 		loader = new FlxOgmoLoader(AssetPaths.level__oel);
-		tilemap0 = loader.loadTilemap(AssetPaths.tiles__png, 32,32, "NewLayer0");
-		tilemap1 = loader.loadTilemap(AssetPaths.tiles__png, 32,32, "NewLayer1");
+		tilemap0 = loader.loadTilemap(AssetPaths.tiles__png, 16,16, "NewLayer0");
+		tilemap1 = loader.loadTilemap(AssetPaths.tiles__png, 16,16, "NewLayer1");
 		FlxG.worldBounds.set(0, 0, tilemap0.width, tilemap0.height);
 		
 		
