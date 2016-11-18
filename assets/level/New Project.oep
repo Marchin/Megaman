@@ -64,7 +64,7 @@
   </LayerDefinitions>
   <Tilesets>
     <Tileset>
-      <Name>NewTileset0</Name>
+      <Name>tilesSet</Name>
       <FilePath>tiles.png</FilePath>
       <TileSize>
         <Width>16</Width>
